@@ -4,5 +4,5 @@ Parses all the circles, rectangles, and polygons in your SVG drawing. Defines an
 ##Usage
 ```bash
 cd SVG-Box2dWeb
-python ./svg-box2dweb.py ./test.svg > ./js/level1.js
+python svg-box2dweb.py test.svg > ./js/level1.js
 ```
