@@ -72,7 +72,7 @@ def print_polygon_list(polygon_list):
 		print "\t" + thisFixDef + ".shape = new b2PolygonShape;"
 		print "\t" + thisBodyDef + ".position.Set(" + origin_x  + " / SCALE, " + origin_y + " / SCALE);"
 		print "\t" + thisFixDef + ".shape.SetAsArray(["
-		print "\t\tnew b2Vec2(0, 0),"
+		print "\t\tnew b2Vec2(0 / SCALE, 0 / SCALE),"
 
 		for this_point in these_points[1:]:
 			this_x = str(float(this_point.split(',')[0]) - float(origin_x))
